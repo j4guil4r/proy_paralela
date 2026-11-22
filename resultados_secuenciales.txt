@@ -1,0 +1,110 @@
+Lmod ha detectado el siguiente error: Estos módulos existen pero no pueden
+ser cargados como ha solicitado: "openmpi"
+   Intente: "module spider openmpi" para ver como cargar los módulos.
+
+
+
+Lmod ha detectado el siguiente error: Los siguientes módulos son
+desconocidos: "intel-mpi"
+
+Por favor compruebe la ortografía, así como mayúsculas y minúsculas o
+número de versión. También intente "module spider ..."
+También es posible que su archivo de cache estea desactualizado. Intente:
+  $ module --ignore_cache load "intel-mpi"
+
+
+
+=== INICIO EXPERIMENTO: Mon Nov  9 10:23:54 -05 2026 ===
+--- 1. MEDICIONES SECUENCIALES (heat.cpp) ---
+Rep 1: SECUENCIAL, p=1, n=512, it=1000, T_total=1.645510, GFLOPs/s=1.745557
+Rep 2: SECUENCIAL, p=1, n=512, it=1000, T_total=1.695304, GFLOPs/s=1.694287
+Rep 3: SECUENCIAL, p=1, n=512, it=1000, T_total=1.599034, GFLOPs/s=1.796291
+Rep 1: SECUENCIAL, p=1, n=1000, it=1000, T_total=13.003685, GFLOPs/s=0.844223
+Rep 2: SECUENCIAL, p=1, n=1000, it=1000, T_total=13.017858, GFLOPs/s=0.843304
+Rep 3: SECUENCIAL, p=1, n=1000, it=1000, T_total=12.912156, GFLOPs/s=0.850207
+Rep 1: SECUENCIAL, p=1, n=1024, it=1000, T_total=6.905754, GFLOPs/s=1.666989
+Rep 2: SECUENCIAL, p=1, n=1024, it=1000, T_total=5.726486, GFLOPs/s=2.010276
+Rep 3: SECUENCIAL, p=1, n=1024, it=1000, T_total=5.718802, GFLOPs/s=2.012977
+Rep 1: SECUENCIAL, p=1, n=2048, it=1000, T_total=63.103748, GFLOPs/s=0.730421
+Rep 2: SECUENCIAL, p=1, n=2048, it=1000, T_total=62.348093, GFLOPs/s=0.739274
+Rep 3: SECUENCIAL, p=1, n=2048, it=1000, T_total=63.328489, GFLOPs/s=0.727829
+Rep 1: SECUENCIAL, p=1, n=4096, it=1000, T_total=297.212575, GFLOPs/s=0.620631
+Rep 2: SECUENCIAL, p=1, n=4096, it=1000, T_total=294.307082, GFLOPs/s=0.626758
+Rep 3: SECUENCIAL, p=1, n=4096, it=1000, T_total=292.203460, GFLOPs/s=0.631270
+--- 2. MEDICIONES PARALELAS (heat_mpi.cpp) ---
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 1: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 2: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+Rep 3: /var/spool/slurmd/job61962/slurm_script: line 32: mpirun: command not found
+=== FIN EXPERIMENTO: Mon Nov  9 10:42:52 -05 2026 ===
